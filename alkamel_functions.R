@@ -155,3 +155,8 @@ compare_sectors <- function(df){
                   comp_S2 = S2_SECONDS - med_S2,
                   comp_S3 = S3_SECONDS - med_S3)
 }
+
+  #names of some bronzes to filter them out
+bronze_drivers <- c("Ian JAMES", "Darren LEUNG", "Ahmad AL HARTHY", "Thomas FLOHR", "James COTTINGHAM", "Claudio SCHIAVONI", "Ryan HARDWICK", 
+                    "Clément MATEU", "Tom VAN ROMPUY", "Hiroshi KOIZUMI", "Sarah BOVY", "Takeshi KIMURA", "Giorgio RODA", "Yasser SHAHIN", 
+                    "Aliaksandr MALYKHIN", "Joshua CAYGILL", "Ben KEATING")  
